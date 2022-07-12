@@ -1,0 +1,24 @@
+자료형
+	리터럴(literal) 소스코드에서 고정된 값(리터럴은 그자체로 데이터타입이 있다.)
+	35,035(8진수),0b11(2진수),0x24(16진수),24L(long형),	1_2_3(float형)
+	byte 1Byte 플마 127,short 2Byte 플마32만, int 4byte 플마 21억, long 8Byte 
+		n=2200000000L;
+		10진수 2진수0b 8진수0앞에 16진수0x long형L뒤에
+		//리터럴인22억은 int형이라 Long형으로 대입해야함
+		int x;		long n;		n=x;// 자료형 변환시 큰 자료형으로 변환된다.(n=long형이된다.)
+		반대로는 error(작은 자료형은 큰자료형으로 변환불가)
+		ex.c1 = '대';	int a =c1;//char을 int형으로 -> int크기가 더 커서 가능, int형이 된다.
+	실수자료형(float형, double형)->double형이 기본 실수데이터타입
+	float4byte double8btye 		실수에서 음수는 2의보수사용x
+	float는 정확도가 낮아서 2000000050이 2000000000으로 표현됨
+	한글도 문자(char)로 사용가능하다
+	자바는 정수형이 연산 기본타입(byte,char,short형은 연산시 int로 바꾸어 연산되어 int로 출력)
+	orerator뜻 :연산자
+	초를 시분초로 표현하는 법
+		min=a/60%60; 분단위로 바꾼다음에 시간부분을 없애줌
+		min=a%3600/60; 시간단위를 없앤다음에 분단위로 바꿈
+	\uhhh 16진수
+	\101  8진수
+	질문:OreratorEx06hw2.java ==time이61일때 time*60.0%60가 0이되는 이유? 정확도+ 버림으로 인해 반올림안되서
+	질문: 경고뜨는 이유 b1 = 65=='A';	comparing identical expressions 이라 뜨는 이유가 뭔가요?
+	에러:c3=(char)(c1+c2); // char(c1+c2) error 문법오류

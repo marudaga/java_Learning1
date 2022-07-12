@@ -1,0 +1,54 @@
+1.메모장 작성
+public class Test {
+	public static void main(String[] args){	
+	System.out.println("자바 프로그래밍");
+	}
+}
+메모장 저장 형식:모든형식 utf-8 ->ANSI로 변경 
+
+java는 컴파일 언어이자 인터프리터 언어이다.
+컴파일 언어에는 c,c++ 
+인터프리터 언어 cell마다 답이 나옴 python
+public, private, protected class의 차이
+public class은 모든 곳에서 접근가능
+private class은 자신을 포함된 class
+protected class은 자신과 자식 class 접근간으
+
+2. 컴파일 : Test.java를 실행하면 자바 바이트코드 (Test.class)로 번역하여 파일생성
+cd 파일 위치변경 후-> javac Test.java 컴파일
+java 실행 	-> java Test.class 실행
+3.실행 자바 바이트코드(Test.clacc)를 자바 가상머신(JVM)으로 실행
+
+eclipse 프로젝트 file->new->othres->javaproject
+단축키
+ctrl + space	상세확인
+ctrl + F11 실행
+shift +enter 다음줄 엔터
+JDK(java development kit) JRE(java runtime environment))
+javac: 자바소스를 바이트 코드로 컴파일
+java 카바 바이트코드를 실행
+API(application programming interface)
+ - 회의실 주소
+    https://us02web.zoom.us/j/8901694440?pwd=dWZCMElYS05KY3pRVlVTUDJlTmJWZz09
+	
+//ctrl + F11 : 실행
+//ctrl + shift + F: 소스 줄 맞춤
+//ctrl + / 주석처리+주석제거, ctrl +shift+/ 전체주석처리 ctrl +shift + \ 전체주석주석제거
+함수 대문자 구분 String, System 대문자
+print 띄어쓰기 error println은 띄어쓰기 내장
+문자열+숫자는 연산 안됨 숫자+숫자는 연산  
+깜빡이는 것 캐럿 커서는 마우스
+printf("서식",value,value)
+%10d,123 자리수 추가 =>    123
+%-10d,123 공백이 뒤로 감=>123     
+%+d,123=>+123 singed 표시(양,음)
+%(d %(d,123,-123=>123 (123)  음수만 괄호됨
+%1$c printf에서 1번째 char형,
+%십의자리.소수점자리수f 정수부분은 그대로 소수점은 반올림, 실수(float형,double형)
+%e는 실수(지수형식),%f 실수, %x는 10진수를 16진수로 표현
+# 자리수 표현 ,%s는 string출력, %S는 대문자로 변형 출력, %전체자리수.자리수s 자리수 문자열출력
+%e 실수 지수로 표현, %s string표시 %S문자열 대문자표시 %x 10진수를 16진수로 표현
+System.in 키보드 System.out 모니터
+sc.next()=>string표시 sc.nextint()=>int 표시 sc.next().charAt(n)=> 문자 1개 출력 n인덱스 값 0부터시작 sc.nextdouble()=>더블 표시
+
+질문 :sc.next().charAt(n)=> 문자 1개 출력 n인덱스 값
