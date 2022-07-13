@@ -1,0 +1,13 @@
+package ch04.unit3;
+
+import java.util.Scanner;
+
+public class DoWhileEx03 {
+
+	public static void main(String[] args) {
+		//
+		
+		 
+	}
+
+}

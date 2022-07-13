@@ -1,0 +1,14 @@
+package ch04.unit3;
+
+public class ForEx07 {
+
+	public static void main(String[] args) {
+		int start = 200000000;
+		int count = 0;
+		
+		for(float f = start; f<start +50; f++) {
+			count++;
+		}
+		System.out.println(count);
+	}
+}

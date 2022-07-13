@@ -1,0 +1,30 @@
+package ch04.unit4;
+
+import java.util.Scanner;
+
+public class BreakEx03 {
+	public static void main(String[] args) {
+		//label gogo로 완전 루프 break 와 첫 for문 break한 경우
+	
+		//그냥 break한 경우
+//		i:1, j:1
+//		i:1, j:2
+//		i:2, j:1
+		//gogo로 완전 루프 break
+//		i:1, j:1
+//		i:1, j:2
+		//
+		
+		gogo:
+		for(int i=1; i<=3;i++) {
+			for(int j=1; j<=3;j++) {
+				if(i+j == 4) {
+					break gogo;
+				}
+				System.out.println("i:"+i+", j:"+j);
+			}
+		}
+		
+		
+	}
+}

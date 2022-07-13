@@ -1,0 +1,17 @@
+package ch04.unit3;
+
+/*		
+	1+2+4+7+11 ... 의 20번째 항까지의 합
+*/
+public class Quiz008_Hap20 {
+	public static void main(String[] args) {
+		int s = 0, t = 1, n = 0;
+
+		while (n < 20) {
+			s += t;
+			n++;
+			t += n;
+		}
+		System.out.println("결과 : " + s); // 1350
+	}
+}

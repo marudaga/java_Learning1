@@ -1,0 +1,19 @@
+package ch04.unit3;
+
+
+public class ForEx05o {
+
+	public static void main(String[] args) {
+//		int s, n;
+//		s=0;
+//		for(n=1;n<=10;n++) {
+//			s+=n;
+//			System.out.println();//10:55
+//		}
+//		System.out.println("밖:"+n+","+s);//11:55
+		int s=0;for(int n=1;n<=10;n++) {
+			s+=n;
+		}
+		System.out.println(s);
+	}
+}

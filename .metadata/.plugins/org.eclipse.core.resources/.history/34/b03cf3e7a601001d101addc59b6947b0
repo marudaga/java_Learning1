@@ -1,0 +1,19 @@
+package ch04.unit3;
+
+public class ForEx09 {
+
+	public static void main(String[] args) {
+		//별찍기 피라미드
+		for(int i=5;i<=1;i--) {
+			for(int k=0;k<i;k++) {
+				System.out.print(" ");}
+			}
+			for(int j=1;j<=i;j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+			
+		}
+		
+	}
+}

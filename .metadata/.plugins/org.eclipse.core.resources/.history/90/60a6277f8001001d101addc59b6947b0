@@ -1,0 +1,13 @@
+package ch04.unit3;
+
+import java.util.Scanner;
+
+public class RandomEx {
+
+	public static void main(String[] args) {
+		//
+		
+		 
+	}
+
+}

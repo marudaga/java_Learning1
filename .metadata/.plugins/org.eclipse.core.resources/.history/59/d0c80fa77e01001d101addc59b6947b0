@@ -1,0 +1,9 @@
+package ch04.unit3;
+
+public class DoWhileEx02 {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

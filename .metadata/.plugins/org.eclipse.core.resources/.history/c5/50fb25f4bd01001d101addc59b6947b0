@@ -1,0 +1,19 @@
+package ch04.unit3;
+public class WhileHw2 {
+
+	public static void main(String[] args) {
+		int a=1,s=0;
+		 while(s<100) {
+			 s+=a;
+			 if(a>0) {
+				 a=-(a+1);
+			 }else {
+				 a=-a+1;
+			 }
+		 }
+		 System.out.print("n:"+s);
+		 System.out.print("s:"+a);
+	}
+}
+
+
